@@ -2,8 +2,8 @@
   "skill": "habitat-suitability-modeling",
   "skill_version": "1.0.0",
   "command": "habitat-suitability-modeling --bbox 116 39 117 40 --synthetic --model logreg --quiet --output-dir ./_test_model_logreg",
-  "started_at": "2026-08-03T17:22:44.883156Z",
-  "finished_at": "2026-08-03T17:22:45.665437Z",
+  "started_at": "2026-11-02T15:12:06.619518Z",
+  "finished_at": "2026-11-02T15:12:10.079492Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -14,7 +14,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_model_logreg\\habitat_suitability.tif",
+      "path": "./_test_model_logreg/habitat_suitability.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -31,7 +31,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_model_logreg\\suitability_params.json",
+      "path": "./_test_model_logreg/suitability_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -46,7 +46,7 @@
   "qa": {
     "source": "synthetic",
     "model": "logreg",
-    "cv_auc": 0.7683843981767315,
+    "cv_auc": 0.7683843030494965,
     "mean_suitability": 0.1639687418937683,
     "top_variable": "ndvi",
     "prevalence": 0.1639404296875,
@@ -54,7 +54,7 @@
     "synthetic_prevalence": 0.1639404296875
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "habitat-suitability-modeling"
   },
   "error": null

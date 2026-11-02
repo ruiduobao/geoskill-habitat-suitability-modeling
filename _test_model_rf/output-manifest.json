@@ -2,8 +2,8 @@
   "skill": "habitat-suitability-modeling",
   "skill_version": "1.0.0",
   "command": "habitat-suitability-modeling --bbox 116 39 117 40 --synthetic --model rf --quiet --output-dir ./_test_model_rf",
-  "started_at": "2026-08-03T17:22:45.871581Z",
-  "finished_at": "2026-08-03T17:22:50.338520Z",
+  "started_at": "2026-11-02T15:12:10.519796Z",
+  "finished_at": "2026-11-02T15:12:20.370949Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -14,7 +14,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_model_rf\\habitat_suitability.tif",
+      "path": "./_test_model_rf/habitat_suitability.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -31,7 +31,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_model_rf\\suitability_params.json",
+      "path": "./_test_model_rf/suitability_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -47,14 +47,14 @@
     "source": "synthetic",
     "model": "rf",
     "cv_auc": 0.705786233664887,
-    "mean_suitability": 0.16399848461151123,
+    "mean_suitability": 0.16399894654750824,
     "top_variable": "ndvi",
     "prevalence": 0.1639404296875,
     "n_valid_pixels": 16384,
     "synthetic_prevalence": 0.1639404296875
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "habitat-suitability-modeling"
   },
   "error": null

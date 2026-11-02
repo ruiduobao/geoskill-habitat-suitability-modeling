@@ -3,12 +3,12 @@
   "n_samples": 16384,
   "n_features": 4,
   "prevalence": 0.1639404296875,
-  "cv_auc": 0.7683843981767315,
+  "cv_auc": 0.7683843030494965,
   "variable_importance": {
-    "temperature": 0.061266508372923134,
-    "precipitation": 0.028330047230408925,
-    "ndvi": 0.8690600195738472,
-    "elevation": 0.04134342482282081
+    "temperature": 0.061265972251836394,
+    "precipitation": 0.02833193354229881,
+    "ndvi": 0.869056018509532,
+    "elevation": 0.04134607569633285
   },
   "band_names": [
     "temperature",

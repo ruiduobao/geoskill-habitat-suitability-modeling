@@ -5,10 +5,10 @@
   "prevalence": 0.1639404296875,
   "cv_auc": 0.705786233664887,
   "variable_importance": {
-    "temperature": 0.048259223647745,
-    "precipitation": 0.04626141879394267,
-    "ndvi": 0.8513501983689543,
-    "elevation": 0.05412915918935801
+    "temperature": 0.048259561795414206,
+    "precipitation": 0.04627769845093754,
+    "ndvi": 0.8513567843426352,
+    "elevation": 0.054105955411013
   },
   "band_names": [
     "temperature",
